@@ -5,9 +5,9 @@ int main()
 {
     float base, altura, area;
     cout<<"Inscribir la base: ";
-    cin>>"base";
+    cin>>base;
     cout<<"Digitar la altura: ";
-    cin>>"altura";
+    cin>>altura;
     area=(base*altura)/2;
     cout<<"El area es:"<<area;
     
