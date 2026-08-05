@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-    cout<<"Bolivianos: el hado propicio";
-    cout<<"corono nuestros votos y anhelos";
-    cout<<"es ya libre, ya libre este suelo";
+    cout<<"Bolivianos: el hado propicio"<<endl;
+    cout<<"corono nuestros votos y anhelos"<<endl;
+    cout<<"es ya libre, ya libre este suelo"<<endl;
     cout<<"ya ceso su servil condicion";
 
     return 0;
