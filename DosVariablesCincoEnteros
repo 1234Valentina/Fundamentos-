@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float suma = 0;
+    int num;
+    
+    cout<<"Ingrese el numero 1: ";
+    cin>>num;
+    suma=suma+suma;
+    cout<<"Ingrese el numero 2: ";
+    cin>>num;
+    suma=suma+num;
+    cout<<"Ingrese el numero 3: ";
+    cin>>num;
+    suma=suma+num;
+    cout<<"Ingrese el numero 4: ";
+    cin>>num;
+    suma=suma+num;
+    cout<<"Ingrese el numero 5: ";
+    cin>>num;
+    suma=suma+num;
+    suma=suma/5;
+    cout<<"El promedio de los 5 numeros es: "<<suma<<endl;
+    
+    return 0;
+}
