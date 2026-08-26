@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float r, perimetro, area;
+    const float PI=3.1416;
+    cout<<"Ingrese el radio de la circunferencia: ";
+    cin>>r;
+    perimetro=2*PI*r;
+    area=PI*r*r;
+    cout<<"El perimetro es: "<< perimetro <<endl;
+    cout<<"El area es: "<< area <<endl;
+
+    return 0;
+}
