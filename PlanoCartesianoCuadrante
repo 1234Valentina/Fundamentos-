@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+  float x, y;
+  cout<<"Ingrese la coordenada x: ";
+  cin>>x;
+  cout<<"Ingrese la coordenada y: ";
+  cin>>y;
+  if (x > 0 &&  y > 0){
+      cout<<"Esta en el primer cuadrante: "<<endl;
+  }
+  else if (x < 0 && y > 0){
+      cout<<"Esta en el segundo cuadrante: "<<endl;
+  }
+  else if (x < 0 &&  y < 0){
+      cout<<"Esta en el tercer cuadrante: "<<endl;
+  }
+  else if (x > 0 &&  y < 0){
+      cout<<"Esta en el cuarto cuadrante: "<<endl;
+  }
+  else if (x == 0 &&  y == 0){
+      cout<<"Esta en el punto de origen: "<<endl;
+  }
+  else {
+      cout<<"El punto esta sobre uno de los ejes"<<endl;
+  }
+  
+  return 0;
+}
