@@ -1,0 +1,19 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+  { double capital, tiempo, interes, InteresSimple;
+    cout<<"Ingrese capital: ";
+    cin>> capital;
+    cout<<"Inrgese el número de tiempo: ";
+    cin>>tiempo;
+    cout<<"Ingrese el interes: ";
+    cin>>interes;
+    InteresSimple= capital * tiempo * interes;
+    cout<<"El interes ganado es: "<< InteresSimple << endl;
+
+    return 0;
+}
