@@ -1,0 +1,31 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int cantHamburguesa, cantHamburguesaYqueso, cantPapas, cantSoda;
+    double TotalHamburguesa, TotalHamburguesaYqueso, TotalPapas, TotalSoda;
+    cout<<"Ingrese el total de hamburguesas (3bs): ";
+    cin>>cantHamburguesa;
+    cout<<"Ingrese el total de hamburguesas con queso (5bs): ";
+    cin>>cantHamburguesaYqueso;
+    cout<<"Ingrese total de papas (2bs): ";
+    cin>>cantPapas;
+    cout<<"Ingrese total de soda (2.5bs) : ";
+    cin>>cantSoda;
+    
+    TotalHamburguesa=cantHamburguesa*3;
+    TotalHamburguesaYqueso=cantHamburguesaYqueso*5;
+    TotalPapas=cantPapas*2;
+    TotalSoda=cantSoda*2.5;
+    int totalCantidad = cantHamburguesa + cantHamburguesaYqueso + cantPapas + cantSoda;
+    double totalPagar = TotalHamburguesa + TotalHamburguesaYqueso + TotalPapas + TotalSoda;
+
+    cout << "\n--- RESULTADOS ---" << endl;
+    cout << "Total de items comprados: " << totalCantidad << endl;
+    cout << "Total a pagar: " << totalPagar << " Bs" << endl;
+ 
+
+    return 0;
+}
