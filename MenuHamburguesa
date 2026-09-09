@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+   int hamburguesa, hamburguesaQ, papas, menu, cantidad, pedido, decision, total;
+   float soda;
+   hamburguesa=0;
+   hamburguesaQ=0;
+   papas=0;
+   soda=0;
+   do {
+       cout<<"Bienvenido "<<endl;
+       cout<<"Ingrese cantidad: "<<endl;
+       cout<<"1. hamburguesa (3bs): "<<endl;
+       cout<<"2. hamburguesaQ (5bs): "<<endl;
+       cout<<"3. papas (2bs): "<<endl;
+       cout<<"4. soda (2.5): "<<endl;
+       
+       cin>>menu;
+       cout<<"Ingrese pedido: "<<endl;
+       cin>>cantidad;
+       
+       switch (menu) {
+           case 1:
+           hamburguesa=hamburguesa+pedido*3;
+           break;
+           case 2:
+           hamburguesaQ=hamburguesaQ+pedido*5;
+           break;
+           case 3:
+           papas=papas+pedido*2;
+           case 4:
+           soda: soda+pedido*2.5;
+           break;
+           default:
+           cout<<"Error en su pedido: "<<endl;
+       }
+       cout<<"Desea pedir algo mas? 1:SI 2:NO ";
+       cin>>decision;
+   }
+   while (decision == 1);
+   total=hamburguesa+hamburguesaQ+papas+soda;
+   cout<<"Su total es: ";
+   
+   return 0;
+}
