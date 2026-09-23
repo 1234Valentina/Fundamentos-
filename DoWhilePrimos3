@@ -1,0 +1,40 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+   bool flag; //por cada vuelta se reinicia la bandera
+   int n, cont=2, cont2=0;
+   char repetir;
+   do {
+       cont =2;
+       cont2=0;
+  
+   cout<<"Ingrese el numero de numeros primos a generar: "<<endl;
+   cin>>n;
+   while (cont2<=n)
+   {
+        flag=true;
+        for(int i=2;i<=sqrt(cont);i++)
+          {
+              if (cont%i==0)
+               {
+                flag=false;
+                break;
+               } 
+   }
+        if (flag)
+        {
+            cout<<cont<<",";
+            cont2++;
+        }
+        cont++;
+   }
+        cout<<"Desea repetir el programa? SI:1 NO:2"<<endl;
+        cin>>repetir;
+        }
+    while (repetir==repetir|| repetir==repetir);
+    return 0;
+}
