@@ -1,0 +1,16 @@
+//Autor: Valentina Alvarez, pregunta 5, practica ciclos//
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int N;
+    int producto=1;
+    cout<<"Ingrese el numero entero para N: ";
+    cin>>N;
+    for (int i=1; i<=N; i++)
+        producto =producto*i;
+    cout<<"El producto de los primero N numeros enteros"<<N<<endl;
+    cout<<"El numero es: "<<producto;
+    return 0;
+}
